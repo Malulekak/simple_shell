@@ -1,20 +1,24 @@
+#include <stdio.h>
+
 /**
- * add_numbers - Adds two numbers
- * @a: First number
- * @b: Second number
+ * add_numbers - adds two numbers together
+ * @y: first number
+ * @z: second number
  *
- * Return: Sum of the two numbers
+ * Return: sum of the two numbers added together
  */
-int add_numbers(int a, int b)
+
+int add_numbers(int y, int z)
 {
-	return (a + b);
+	return (y + z);
 }
 
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int num1 = 10;
@@ -25,7 +29,7 @@ int main(void)
 
 	sum = add_numbers(num1, num2);
 
-	printf("The sum is: %d\n", sum);
+	printf("The sum of the two numbers is: %d\n", sum);
 
 	return (0);
 }
